@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body style="background-color: blueviolet">
+    <div class="container_data border border-secondary bg-white rounded p-4">
+      <div class="text-center">
+        <b class="text-dark fs-3">Register</b>
+        <p class="text-dark mt-3">Fill out this form</p>
+      </div>
+
+      <form action="#!" method="get" autocomplete="on">
+        <!-- ADINIZ -->
+        <div class="form_data text-center">
+          <!-- <label for="adi">Adınız</label><br /> -->
+
+          <input type="text1" id="name" placeholder="First Name" required="true" />
+          <input type="text1" id="surname" placeholder="Last Name" required="true" />
+        </div>
+
+        <div class="form_data text-center w-full">
+          <i class="fa-solid fa-user icon_data"></i>
+          <input type="text" id="usurname" placeholder="Username" class="input_data" />
+        </div>
+
+        <!-- EMAİL -->
+        <div class="form_data text-center">
+          <i class="fa-solid fa-envelope icon_data"></i>
+          <input type="email" id="email" name="email" placeholder="E-mail Address" class="input_data" />
+        </div>
+
+        <!-- ŞİFRE -->
+        <div class="form_data text-center">
+          <i class="fa-solid fa-lock icon_data"></i>
+          <input type="password" id="password" placeholder="Password" class="input_data" />
+        </div>
+        <div class="text-center">
+          <label for="check" class="checkbox text-dark">
+            <input type="checkbox" class="check1" value="1" />
+            I agree with the <span> <b>Terms and Conditions</b> </span> and the
+            <span> <b>Privacy Policy</b></span>
+          </label>
+        </div>
+
+        <button class="m-4 rounded" type="submit" id="submit" name="submit">Create Account</button>
+      </form>
+    </div>
+    <!-- container -->
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
